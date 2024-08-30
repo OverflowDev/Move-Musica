@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.full-height-minus-navbar {
+    min-height: calc(100vh - 4rem); /* Assuming the navbar height is 4rem */
+  }
