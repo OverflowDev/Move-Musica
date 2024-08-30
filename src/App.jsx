@@ -11,7 +11,7 @@ function App() {
     <div className='min-h-screen flex flex-col text-white font-outfit overflow-hidden'>
       <Router> 
 
-        {/* <Navbar /> */}
+        <Navbar />
 
         <div className="flex-grow">
           <Routes>

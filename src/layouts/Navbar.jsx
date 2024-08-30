@@ -25,7 +25,7 @@ function Navbar() {
 
   return (
     <nav className='lg:px-24 px-8 flex justify-between items-center py-6'>
-      <div className="font-clash-display">
+      <div className="font-outfit">
         <Link to='/' className="text-2xl">
           <span className="text-secondary font-bold">Musica</span>
         </Link>
@@ -47,7 +47,7 @@ function Navbar() {
         <Link to='/'>FAQs</Link>
         <div>
           <button 
-            className='py-2 px-8 md:ml-36 border-2 border-y-gray-400 border-x-white rounded-lg uppercase font-bold tracking-wider'
+            className='hover:bg-gray-200 py-2 px-8 md:ml-36 border-2 hover:border-main/70 hover:text-main rounded-lg uppercase font-bold tracking-wider'
           >
             Connect Wallet
           </button>
@@ -63,7 +63,11 @@ function Navbar() {
           <Link onClick={closeMenu} to='/overview'>Overview</Link>
           <Link onClick={closeMenu} to='/faqs'>FAQs</Link>
           <div>
-            <Link onClick={closeMenu} to='/register' className="bg-gradient-to-r from-lgrad to-grad py-3 px-10 rounded-sm">Register</Link>
+            <button 
+              className='hover:bg-gray-400 py-2 px-8 md:ml-36 border-2 hover:border-main hover:text-main rounded-lg uppercase font-bold tracking-wider'
+            >
+              Connect Wallet
+            </button>
           </div>
         </div>
       </div>
